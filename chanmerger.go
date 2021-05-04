@@ -69,7 +69,6 @@ func main() {
 	}
 
 	args := flag.Args()
-	log.Printf("debug: flag args: %v\n", args)
 
 	var dir string
 	if len(args) == 1 && isDirectory(args[0]) {
