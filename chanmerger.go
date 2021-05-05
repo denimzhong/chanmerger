@@ -233,7 +233,7 @@ var stringMergeTwo = `func mergeTwo%[2]sChan(ch1, ch2 %[3]s %[1]s) %[3]s %[1]s {
 				}
 			case v, ok := <-ch2:
 				if !ok {
-					flag |= 1
+					flag |= 2
 				} else {
 					merge <- v
 				}
